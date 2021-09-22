@@ -22,7 +22,7 @@ while games_played < no_of games:
         print("Computer wins")
         games_played = games_played + 1
      else:
-      print("You win)
+      print("You win")
       games_played = games_played + 1
   return rock()
   def paper():
