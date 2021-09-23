@@ -7,8 +7,7 @@ choices = ['rock' , 'paper' , 'scissor']
 
   
 def rock():
-  if user.choice == "rock":
-    choices = ['rock' , 'paper' , 'scissor']
+ 
     computer_choice = random.choice(choices)
   if computer_choice == 'paper':
     print("Computer wins")
