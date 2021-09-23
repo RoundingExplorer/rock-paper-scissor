@@ -34,7 +34,14 @@ return paper()
 
 def scissor():
   computer_choice = random.choice(choices)
-  if computer_choice == 'rock'
+  if computer_choice == 'rock':
+    print("Computer wins")
+    games_played = games_played + 1
+  else:
+    print("You win")
+    games_played = games_played + 1
+    
+return scissor()
   
   
     
